@@ -1,0 +1,943 @@
+{
+  "io.netty.bootstrap.ServerBootstrapTest#testHandlerRegister": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.bootstrap.ServerBootstrapTest#testParentHandler": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.bootstrap.ServerBootstrapTest#testParentHandlerViaChannelInitializer": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.bootstrap.ServerBootstrapTest#optionsAndAttributesMustBeAvailableOnChildChannelInit": [
+    "connectTimeoutMillis",
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#localChannelRaceCondition": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testAutoReadDisabledDifferentGroup": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testMaxMessagesPerReadRespectedWithAutoReadSharedGroup": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testWriteWhilePeerIsClosedReleaseObjectAndFailPromise": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testServerMaxMessagesPerReadRespectedWithoutAutoReadDifferentGroup": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testMaxMessagesPerReadRespectedWithAutoReadDifferentGroup": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testWriteInWritePromiseCompletePreservesOrder": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testPeerWriteInWritePromiseCompleteSameEventLoopPreservesOrder": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testReadCompleteCalledOnHandle": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testServerCloseChannelSameEventLoop": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testConnectFutureBeforeChannelActive": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testReRegister": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testCloseInWritePromiseCompletePreservesOrder": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testMaxMessagesPerReadRespectedWithoutAutoReadDifferentGroup": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testServerMaxMessagesPerReadRespectedWithoutAutoReadSharedGroup": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testServerMaxMessagesPerReadRespectedWithAutoReadSharedGroup": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testCloseAfterWriteInSameEventLoopPreservesOrder": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testAutoReadDisabledSharedGroup": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testWriteFailsFastOnClosedChannel": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testLocalAddressReuse": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testPeerWriteInWritePromiseCompleteDifferentEventLoopPreservesOrder": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testServerMaxMessagesPerReadRespectedWithAutoReadDifferentGroup": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testConnectionRefused": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testMaxMessagesPerReadRespectedWithoutAutoReadSharedGroup": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testNotLeakBuffersWhenCloseByRemotePeer": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.oio.OioEventLoopTest#testTooManyAcceptedChannels": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.oio.OioEventLoopTest#testTooManyClientChannels": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.oio.OioEventLoopTest#testTooManyServerChannels": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalTransportThreadModelTest#testStagedExecution": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalTransportThreadModelTest#testConcurrentMessageBufferAccess": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalTransportThreadModelTest#testStagedExecutionMultiple": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultMaxMessagesRecvByteBufAllocatorTest#testRespectReadBytes": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultMaxMessagesRecvByteBufAllocatorTest#testIgnoreReadBytes": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ChannelOutboundBufferTest#testEmptyNioBuffers": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ChannelOutboundBufferTest#testMixedWritability": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ChannelOutboundBufferTest#testNioBuffersMaxCount": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ChannelOutboundBufferTest#testNioBuffersSingleBacked": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ChannelOutboundBufferTest#testUserDefinedWritability2": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ChannelOutboundBufferTest#testUserDefinedWritability": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ChannelOutboundBufferTest#testNioBuffersExpand": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ChannelOutboundBufferTest#testWriteTaskRejected": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ChannelOutboundBufferTest#testNioBuffersExpand2": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ChannelOutboundBufferTest#testWritability": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTailTest#testOnUnhandledInboundWritabilityChanged": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTailTest#testOnUnhandledInboundChannelInactive": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTailTest#testOnUnhandledInboundMessage": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTailTest#testOnUnhandledInboundUserEventTriggered": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTailTest#testOnUnhandledInboundChannelActive": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTailTest#testOnUnhandledInboundException": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTailTest#testOnUnhandledInboundReadComplete": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.SimpleUserEventChannelHandlerTest#testTypeMismatch": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.SimpleUserEventChannelHandlerTest#testTypeMatch": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.CombinedChannelDuplexHandlerTest#testPromisesPassed": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.CombinedChannelDuplexHandlerTest#testOutboundEvents": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.CombinedChannelDuplexHandlerTest#testExceptionCaughtBothCombinedHandlers": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.CombinedChannelDuplexHandlerTest#testInboundEvents": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testEnsureOpen": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#promiseDoesNotInfiniteLoop": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testFinishAndReleaseAll": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testChannelInactiveFired": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testRunPendingTasksForNotRegisteredChannel": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testScheduling": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testWriteLater": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testHasNoDisconnect": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testConstructWithChannelInitializer": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testHandlerAddedExecutedInEventLoop": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testHasDisconnect": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testFireChannelInactiveAndUnregisteredOnDisconnect": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testNotRegistered": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testFlushOutbound": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testAdvanceTime": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testWriteOneOutbound": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testFreezeTime": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testReRegisterEventLoop": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testHandleOutboundMessage": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testHandleInboundMessage": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testHasPendingTasks": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testFireChannelInactiveAndUnregisteredOnClose": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testWriteOneInbound": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testConstructWithChannelId": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testWriteScheduled": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testConstructWithOutHandler": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testReleaseInbound": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testParent": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testRegistered": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testFlushInbound": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testScheduledCancelled": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testReleaseOutbound": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testHasNoDisconnectSkipDisconnect": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.group.DefaultChannelGroupTest#testNotThrowBlockingOperationException": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.nio.NioEventLoopTest#testReregister": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.nio.NioEventLoopTest#testShutdownGracefullyNoQuietPeriod": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.nio.NioEventLoopTest#testChannelsRegistered": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.nio.NioEventLoopTest#testRebuildSelector": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.nio.NioEventLoopTest#testRebuildSelectorOnIOException": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.nio.NioEventLoopTest#testSelectableChannel": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.SingleThreadEventLoopTest#testRegistrationAfterShutdown2": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.SingleThreadEventLoopTest#testRegistrationAfterShutdown": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ReentrantChannelTest#testFlushInWritabilityChanged": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ReentrantChannelTest#testWriteFlushPingPong": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ReentrantChannelTest#testFlushFailure": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ReentrantChannelTest#testWritabilityChanged": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ReentrantChannelTest#testCloseInFlush": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testMerge": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testWritabilityChangedFailAll": [
+    "writeBufferWaterMark",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testAddFirstPromiseRetained": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testReadExactAddedBufferSizeReturnsOriginal": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testWritabilityChanged": [
+    "writeBufferWaterMark",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testAggregateWithPartialRead": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testReadEmptyQueueReturnsEmptyBuffer": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testAddFirstVoidPromise": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testWithVoidPromise": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testAggregateWithFullRead": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testEmptyBuffersAreCoalesced": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testReleaseAndFailAll": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.socket.nio.NioSocketChannelTest#testInvalidNioChannelOption": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.socket.nio.NioSocketChannelTest#testGetOptions": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.socket.nio.NioSocketChannelTest#testNioChannelOption": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.socket.nio.NioSocketChannelTest#testShutdownOutputAndClose": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.socket.nio.NioSocketChannelTest#testChannelReRegisterReadDifferentEventLoop": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.socket.nio.NioSocketChannelTest#testFlushAfterGatheredFlush": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.socket.nio.NioSocketChannelTest#testFlushCloseReentrance": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.socket.nio.NioSocketChannelTest#testChannelReRegisterReadSameEventLoop": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ChannelInitializerTest#testAddLastChannelInitializer": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ChannelInitializerTest#testChannelInitializerInInitializerCorrectOrdering": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ChannelInitializerTest#testInitChannelThrowsRegisterAfter": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ChannelInitializerTest#testInitChannelThrowsRegisterFirst": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ChannelInitializerTest#testAddFirstChannelInitializer": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ChannelInitializerTest#testChannelInitializerReentrance": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ChannelInitializerTest#firstHandlerInPipelineShouldReceiveChannelRegisteredEvent": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ChannelInitializerTest#testChannelInitializerEventExecutor": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.ChannelInitializerTest#lastHandlerInPipelineShouldReceiveChannelRegisteredEvent": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.PendingWriteQueueTest#testRemoveAndFail": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.PendingWriteQueueTest#testRemoveAndWriteAllReentrantWrite": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.PendingWriteQueueTest#testRemoveAndWriteAllWithVoidPromise": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.PendingWriteQueueTest#testRemoveAndWriteAll": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.PendingWriteQueueTest#shouldFireChannelWritabilityChangedAfterRemoval": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.PendingWriteQueueTest#testRemoveAndFailAll": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.PendingWriteQueueTest#testRemoveAndFailAllReentrantFailAll": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.PendingWriteQueueTest#testRemoveAndWrite": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.PendingWriteQueueTest#testRemoveAndWriteAllReentrance": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.PendingWriteQueueTest#testRemoveAndFailAllReentrantWrite": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.PendingWriteQueueTest#testCloseChannelOnCreation": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.pool.SimpleChannelPoolTest#testAcquire": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.pool.SimpleChannelPoolTest#testUnhealthyChannelIsOfferedWhenNoHealthCheckRequested": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.pool.SimpleChannelPoolTest#testBoundedChannelPoolSegment": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.pool.SimpleChannelPoolTest#testUnhealthyChannelIsNotOffered": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.pool.SimpleChannelPoolTest#testCloseAsync": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.pool.SimpleChannelPoolTest#testChannelAcquiredException": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.bootstrap.BootstrapTest#testGetResolverFailed": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.bootstrap.BootstrapTest#testChannelOptionOrderPreserve": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.bootstrap.BootstrapTest#testChannelFactoryFailureNotifiesPromise": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.bootstrap.BootstrapTest#testLateRegisterSuccess": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.bootstrap.BootstrapTest#optionsAndAttributesMustBeAvailableOnChannelInit": [
+    "connectTimeoutMillis",
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.bootstrap.BootstrapTest#testLateRegistrationConnect": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.bootstrap.BootstrapTest#testConnectDeadLock": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.bootstrap.BootstrapTest#testLateRegisterSuccessBindFailed": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.bootstrap.BootstrapTest#testBindDeadLock": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.bootstrap.BootstrapTest#testAsyncResolutionSuccess": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.bootstrap.BootstrapTest#testAsyncResolutionFailure": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPromiseTest#testChannelWithNullExecutor": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testRemoveIfExists": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testAddReplaceHandlerCalledOnceRegistered": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testFreeCalled": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testAddInListenerNio": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testAddInListenerOio": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testRemoveAndForwardInbound": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testNotPinExecutor": [
+    "pinEventExecutorPerGroup",
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testFirstHandlerEmptyPipeline": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testWrongPromiseChannel": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testFirstContextEmptyPipeline": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testPipelineOperation": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testRemoveAndForwardInboundOutbound": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testAddInListenerLocal": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testLifeCycleAwareness": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testNullName": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testCancelDisconnect": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testChannelUnregistrationWithCustomExecutor": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testRemoveChannelHandler": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testCancelWriteAndFlush": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testRemoveIfExistsDoesNotThrowException": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testUnexpectedVoidChannelPromiseCloseFuture": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testAddRemoveHandlerCalledOnceRegistered": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testUnorderedEventExecutor": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testReplaceHandlerChecksDuplicateNames": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testReplaceAndForwardOutbound": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testReplaceChannelHandler": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testThrowInOtherHandlerAfterInvokedFromExceptionCaught": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testHandlerAddedFailedButHandlerStillRemoved": [
+    "pinEventExecutorPerGroup",
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testThrowInExceptionCaught": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testVoidPromiseNotify": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testCancelConnect": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testSkipHandlerMethodsIfAnnotated": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testAddHandlerBeforeRegisteredThenRemove": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testChannelHandlerContextNavigation": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#handlerAddedStateUpdatedBeforeHandlerAddedDoneOnCallingThread": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testAddBefore": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testChannelInitializerException": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testWriteAndFlushThrowsReleaseMessage": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testLastHandlerEmptyPipeline": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testRenameChannelHandler": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testLastContextEmptyPipeline": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testHandlerAddedExceptionFromChildHandlerIsPropagated": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testRemoveAndForwardOutbound": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testReplaceAndForwardInboundAndOutbound": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testAddHandlerBeforeRegisteredThenReplace": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testHandlerRemovedOnlyCalledWhenHandlerAddedCalled": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testCancelBind": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#handlerAddedStateUpdatedBeforeHandlerAddedDoneForceEventLoop": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testWriteThrowsReleaseMessage": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testAddRemoveHandlerNotRegistered": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testReplaceNameWithGenerated": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testRemoveThrowNoSuchElementException": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testHandlerAddedAndRemovedCalledInCorrectOrder": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testUnexpectedVoidChannelPromise": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testPinExecutor": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testCancelDeregister": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testFireChannelRegistered": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testChannelHandlerContextOrder": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testHandlerAddedFailedButHandlerStillRemovedWithLaterRegister": [
+    "pinEventExecutorPerGroup",
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testAddReplaceHandlerNotRegistered": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testCancelClose": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testHandlerRemovedExceptionFromChildHandlerIsPropagated": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testCancelWrite": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testHandlerAddedThrowsAndRemovedThrowsException": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalTransportThreadModelTest3#testConcurrentAddRemoveInboundEventsMultiple": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalTransportThreadModelTest3#testConcurrentAddRemoveInboundEvents": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalTransportThreadModelTest3#testConcurrentAddRemoveOutboundEvents": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalTransportThreadModelTest3#testConcurrentAddRemoveOutboundEventsMultiple": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalTransportThreadModelTest2#testSocketReuse": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.socket.nio.NioServerSocketChannelTest#testInvalidNioChannelOption": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.socket.nio.NioServerSocketChannelTest#testGetOptions": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.socket.nio.NioServerSocketChannelTest#testNioChannelOption": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.socket.nio.NioServerSocketChannelTest#testCloseOnError": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.socket.nio.NioServerSocketChannelTest#testIsActiveFalseAfterClose": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.pool.FixedChannelPoolTest#testAcquire": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.pool.FixedChannelPoolTest#testAcquireNewConnectionWhen": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.pool.FixedChannelPoolTest#testAcquireWithZeroTimeout": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.pool.FixedChannelPoolTest#testReleaseClosed": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.pool.FixedChannelPoolTest#testReleaseDifferentPool": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.pool.FixedChannelPoolTest#testAcquireTimeout": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.pool.FixedChannelPoolTest#testAcquireBoundQueue": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.pool.FixedChannelPoolTest#testCloseAsync": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.pool.FixedChannelPoolTest#testChannelAcquiredException": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.pool.FixedChannelPoolTest#testAcquireNewConnection": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.pool.FixedChannelPoolTest#testReleaseAfterClosePool": [
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.socket.nio.NioDatagramChannelTest#testInvalidNioChannelOption": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.socket.nio.NioDatagramChannelTest#testGetOptions": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.socket.nio.NioDatagramChannelTest#testNioChannelOption": [
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.socket.nio.NioDatagramChannelTest#testBindMultiple": [
+    "recvByteBufAllocator"
+  ]
+}

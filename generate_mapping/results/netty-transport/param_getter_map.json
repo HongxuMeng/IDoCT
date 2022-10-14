@@ -1,0 +1,1133 @@
+{
+  "io.netty.bootstrap.ServerBootstrapTest#testHandlerRegister": [
+    "allocator"
+  ],
+  "io.netty.bootstrap.ServerBootstrapTest#testParentHandler": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.bootstrap.ServerBootstrapTest#testParentHandlerViaChannelInitializer": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.bootstrap.ServerBootstrapTest#optionsAndAttributesMustBeAvailableOnChildChannelInit": [
+    "recvByteBufAllocator",
+    "connectTimeoutMillis",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.local.LocalChannelTest#localChannelRaceCondition": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testAutoReadDisabledDifferentGroup": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testMaxMessagesPerReadRespectedWithAutoReadSharedGroup": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testWriteWhilePeerIsClosedReleaseObjectAndFailPromise": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testServerMaxMessagesPerReadRespectedWithoutAutoReadDifferentGroup": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testMaxMessagesPerReadRespectedWithAutoReadDifferentGroup": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testWriteInWritePromiseCompletePreservesOrder": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testPeerWriteInWritePromiseCompleteSameEventLoopPreservesOrder": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testReadCompleteCalledOnHandle": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testServerCloseChannelSameEventLoop": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testConnectFutureBeforeChannelActive": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testReRegister": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testCloseInWritePromiseCompletePreservesOrder": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testMaxMessagesPerReadRespectedWithoutAutoReadDifferentGroup": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testServerMaxMessagesPerReadRespectedWithoutAutoReadSharedGroup": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testServerMaxMessagesPerReadRespectedWithAutoReadSharedGroup": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testCloseAfterWriteInSameEventLoopPreservesOrder": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testAutoReadDisabledSharedGroup": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testWriteFailsFastOnClosedChannel": [
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testLocalAddressReuse": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testPeerWriteInWritePromiseCompleteDifferentEventLoopPreservesOrder": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testServerMaxMessagesPerReadRespectedWithAutoReadDifferentGroup": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testConnectionRefused": [
+    "allocator"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testMaxMessagesPerReadRespectedWithoutAutoReadSharedGroup": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.local.LocalChannelTest#testNotLeakBuffersWhenCloseByRemotePeer": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.oio.OioEventLoopTest#testTooManyAcceptedChannels": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.oio.OioEventLoopTest#testTooManyClientChannels": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.oio.OioEventLoopTest#testTooManyServerChannels": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.local.LocalTransportThreadModelTest#testStagedExecution": [
+    "pinEventExecutorPerGroup",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "autoRead",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.local.LocalTransportThreadModelTest#testConcurrentMessageBufferAccess": [
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.local.LocalTransportThreadModelTest#testStagedExecutionMultiple": [
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.DefaultMaxMessagesRecvByteBufAllocatorTest#testRespectReadBytes": [
+    "autoRead"
+  ],
+  "io.netty.channel.DefaultMaxMessagesRecvByteBufAllocatorTest#testIgnoreReadBytes": [
+    "autoRead"
+  ],
+  "io.netty.channel.ChannelOutboundBufferTest#testMixedWritability": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "messageSizeEstimator",
+    "autoRead"
+  ],
+  "io.netty.channel.ChannelOutboundBufferTest#testNioBuffersMaxCount": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark"
+  ],
+  "io.netty.channel.ChannelOutboundBufferTest#testNioBuffersSingleBacked": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark"
+  ],
+  "io.netty.channel.ChannelOutboundBufferTest#testUserDefinedWritability2": [
+    "autoRead"
+  ],
+  "io.netty.channel.ChannelOutboundBufferTest#testUserDefinedWritability": [
+    "autoRead"
+  ],
+  "io.netty.channel.ChannelOutboundBufferTest#testNioBuffersExpand": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark"
+  ],
+  "io.netty.channel.ChannelOutboundBufferTest#testWriteTaskRejected": [
+    "pinEventExecutorPerGroup",
+    "autoRead",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.ChannelOutboundBufferTest#testNioBuffersExpand2": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark"
+  ],
+  "io.netty.channel.ChannelOutboundBufferTest#testWritability": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "messageSizeEstimator",
+    "autoRead"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTailTest#testOnUnhandledInboundWritabilityChanged": [
+    "autoRead"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTailTest#testOnUnhandledInboundChannelInactive": [
+    "autoRead"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTailTest#testOnUnhandledInboundMessage": [
+    "autoRead"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTailTest#testOnUnhandledInboundUserEventTriggered": [
+    "autoRead"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTailTest#testOnUnhandledInboundChannelActive": [
+    "autoRead"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTailTest#testOnUnhandledInboundException": [
+    "autoRead"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTailTest#testOnUnhandledInboundReadComplete": [
+    "autoRead"
+  ],
+  "io.netty.channel.SimpleUserEventChannelHandlerTest#testTypeMismatch": [
+    "autoRead"
+  ],
+  "io.netty.channel.SimpleUserEventChannelHandlerTest#testTypeMatch": [
+    "autoRead"
+  ],
+  "io.netty.channel.CombinedChannelDuplexHandlerTest#testPromisesPassed": [
+    "autoRead"
+  ],
+  "io.netty.channel.CombinedChannelDuplexHandlerTest#testOutboundEvents": [
+    "autoRead"
+  ],
+  "io.netty.channel.CombinedChannelDuplexHandlerTest#testExceptionCaughtBothCombinedHandlers": [
+    "autoRead"
+  ],
+  "io.netty.channel.CombinedChannelDuplexHandlerTest#testInboundEvents": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testEnsureOpen": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#promiseDoesNotInfiniteLoop": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testFinishAndReleaseAll": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "messageSizeEstimator",
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testChannelInactiveFired": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testScheduling": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testWriteLater": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "messageSizeEstimator",
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testHasNoDisconnect": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testConstructWithChannelInitializer": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testHandlerAddedExecutedInEventLoop": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testHasDisconnect": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testFireChannelInactiveAndUnregisteredOnDisconnect": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testNotRegistered": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testFlushOutbound": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testAdvanceTime": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testWriteOneOutbound": [
+    "writeBufferHighWaterMark",
+    "messageSizeEstimator",
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testFreezeTime": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testReRegisterEventLoop": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testHandleOutboundMessage": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "messageSizeEstimator",
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testHandleInboundMessage": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testHasPendingTasks": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testFireChannelInactiveAndUnregisteredOnClose": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testWriteOneInbound": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testConstructWithChannelId": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testWriteScheduled": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "messageSizeEstimator",
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testConstructWithOutHandler": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "messageSizeEstimator",
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testReleaseInbound": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "messageSizeEstimator",
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testParent": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testRegistered": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testFlushInbound": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testScheduledCancelled": [
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testReleaseOutbound": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "messageSizeEstimator",
+    "autoRead"
+  ],
+  "io.netty.channel.embedded.EmbeddedChannelTest#testHasNoDisconnectSkipDisconnect": [
+    "autoRead"
+  ],
+  "io.netty.channel.group.DefaultChannelGroupTest#testNotThrowBlockingOperationException": [
+    "autoRead"
+  ],
+  "io.netty.channel.nio.NioEventLoopTest#testReregister": [
+    "pinEventExecutorPerGroup",
+    "autoRead"
+  ],
+  "io.netty.channel.nio.NioEventLoopTest#testShutdownGracefullyNoQuietPeriod": [
+    "autoRead"
+  ],
+  "io.netty.channel.nio.NioEventLoopTest#testSelectableChannel": [
+    "recvByteBufAllocator",
+    "autoRead"
+  ],
+  "io.netty.channel.SingleThreadEventLoopTest#testRegistrationAfterShutdown2": [
+    "allocator"
+  ],
+  "io.netty.channel.SingleThreadEventLoopTest#testRegistrationAfterShutdown": [
+    "allocator"
+  ],
+  "io.netty.channel.ReentrantChannelTest#testFlushInWritabilityChanged": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.ReentrantChannelTest#testWriteFlushPingPong": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.ReentrantChannelTest#testFlushFailure": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.ReentrantChannelTest#testWritabilityChanged": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.ReentrantChannelTest#testCloseInFlush": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testMerge": [
+    "autoRead",
+    "allocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testWritabilityChangedFailAll": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "messageSizeEstimator",
+    "autoRead"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testAddFirstPromiseRetained": [
+    "autoRead",
+    "allocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testReadExactAddedBufferSizeReturnsOriginal": [
+    "autoRead",
+    "allocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testWritabilityChanged": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "messageSizeEstimator",
+    "autoRead"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testAggregateWithPartialRead": [
+    "autoRead",
+    "allocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testReadEmptyQueueReturnsEmptyBuffer": [
+    "messageSizeEstimator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testAddFirstVoidPromise": [
+    "autoRead",
+    "allocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testWithVoidPromise": [
+    "autoRead",
+    "allocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testAggregateWithFullRead": [
+    "autoRead",
+    "allocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testEmptyBuffersAreCoalesced": [
+    "autoRead",
+    "allocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.CoalescingBufferQueueTest#testReleaseAndFailAll": [
+    "autoRead",
+    "allocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.socket.nio.NioSocketChannelTest#testGetOptions": [
+    "autoClose",
+    "pinEventExecutorPerGroup",
+    "allocator",
+    "recvByteBufAllocator",
+    "writeBufferWaterMark",
+    "messageSizeEstimator",
+    "writeSpinCount",
+    "writeBufferHighWaterMark",
+    "maxMessagesPerWrite",
+    "maxMessagesPerRead",
+    "autoRead",
+    "writeBufferLowWaterMark",
+    "connectTimeoutMillis"
+  ],
+  "io.netty.channel.socket.nio.NioSocketChannelTest#testShutdownOutputAndClose": [
+    "connectTimeoutMillis",
+    "autoRead"
+  ],
+  "io.netty.channel.socket.nio.NioSocketChannelTest#testChannelReRegisterReadDifferentEventLoop": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeSpinCount",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark",
+    "connectTimeoutMillis"
+  ],
+  "io.netty.channel.socket.nio.NioSocketChannelTest#testFlushAfterGatheredFlush": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeSpinCount",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.socket.nio.NioSocketChannelTest#testFlushCloseReentrance": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeSpinCount",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.socket.nio.NioSocketChannelTest#testChannelReRegisterReadSameEventLoop": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeSpinCount",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark",
+    "connectTimeoutMillis"
+  ],
+  "io.netty.channel.ChannelInitializerTest#testAddLastChannelInitializer": [
+    "autoRead"
+  ],
+  "io.netty.channel.ChannelInitializerTest#testChannelInitializerInInitializerCorrectOrdering": [
+    "allocator"
+  ],
+  "io.netty.channel.ChannelInitializerTest#testInitChannelThrowsRegisterAfter": [
+    "allocator"
+  ],
+  "io.netty.channel.ChannelInitializerTest#testInitChannelThrowsRegisterFirst": [
+    "allocator"
+  ],
+  "io.netty.channel.ChannelInitializerTest#testAddFirstChannelInitializer": [
+    "autoRead"
+  ],
+  "io.netty.channel.ChannelInitializerTest#testChannelInitializerReentrance": [
+    "allocator"
+  ],
+  "io.netty.channel.ChannelInitializerTest#firstHandlerInPipelineShouldReceiveChannelRegisteredEvent": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.ChannelInitializerTest#testChannelInitializerEventExecutor": [
+    "pinEventExecutorPerGroup",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "autoRead",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.ChannelInitializerTest#lastHandlerInPipelineShouldReceiveChannelRegisteredEvent": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.PendingWriteQueueTest#testRemoveAndFail": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "messageSizeEstimator",
+    "autoRead"
+  ],
+  "io.netty.channel.PendingWriteQueueTest#testRemoveAndWriteAllReentrantWrite": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "messageSizeEstimator",
+    "autoRead"
+  ],
+  "io.netty.channel.PendingWriteQueueTest#testRemoveAndWriteAllWithVoidPromise": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "messageSizeEstimator",
+    "autoRead"
+  ],
+  "io.netty.channel.PendingWriteQueueTest#testRemoveAndWriteAll": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "messageSizeEstimator",
+    "autoRead"
+  ],
+  "io.netty.channel.PendingWriteQueueTest#shouldFireChannelWritabilityChangedAfterRemoval": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "messageSizeEstimator",
+    "autoRead"
+  ],
+  "io.netty.channel.PendingWriteQueueTest#testRemoveAndFailAll": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "messageSizeEstimator",
+    "autoRead"
+  ],
+  "io.netty.channel.PendingWriteQueueTest#testRemoveAndFailAllReentrantFailAll": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "messageSizeEstimator",
+    "autoRead"
+  ],
+  "io.netty.channel.PendingWriteQueueTest#testRemoveAndWrite": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "messageSizeEstimator",
+    "autoRead"
+  ],
+  "io.netty.channel.PendingWriteQueueTest#testRemoveAndWriteAllReentrance": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "messageSizeEstimator",
+    "autoRead"
+  ],
+  "io.netty.channel.PendingWriteQueueTest#testRemoveAndFailAllReentrantWrite": [
+    "writeBufferLowWaterMark",
+    "writeBufferHighWaterMark",
+    "messageSizeEstimator",
+    "autoRead"
+  ],
+  "io.netty.channel.PendingWriteQueueTest#testCloseChannelOnCreation": [
+    "messageSizeEstimator",
+    "autoRead"
+  ],
+  "io.netty.channel.pool.SimpleChannelPoolTest#testAcquire": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.pool.SimpleChannelPoolTest#testUnhealthyChannelIsOfferedWhenNoHealthCheckRequested": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.pool.SimpleChannelPoolTest#testBoundedChannelPoolSegment": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.pool.SimpleChannelPoolTest#testUnhealthyChannelIsNotOffered": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.pool.SimpleChannelPoolTest#testCloseAsync": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.pool.SimpleChannelPoolTest#testChannelAcquiredException": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.bootstrap.BootstrapTest#testGetResolverFailed": [
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.bootstrap.BootstrapTest#testChannelOptionOrderPreserve": [
+    "allocator"
+  ],
+  "io.netty.bootstrap.BootstrapTest#testLateRegisterSuccess": [
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.bootstrap.BootstrapTest#optionsAndAttributesMustBeAvailableOnChannelInit": [
+    "connectTimeoutMillis",
+    "allocator"
+  ],
+  "io.netty.bootstrap.BootstrapTest#testLateRegistrationConnect": [
+    "allocator"
+  ],
+  "io.netty.bootstrap.BootstrapTest#testConnectDeadLock": [
+    "allocator"
+  ],
+  "io.netty.bootstrap.BootstrapTest#testLateRegisterSuccessBindFailed": [
+    "allocator"
+  ],
+  "io.netty.bootstrap.BootstrapTest#testBindDeadLock": [
+    "allocator"
+  ],
+  "io.netty.bootstrap.BootstrapTest#testAsyncResolutionSuccess": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.bootstrap.BootstrapTest#testAsyncResolutionFailure": [
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.DefaultChannelPromiseTest#testChannelWithNullExecutor": [
+    "autoRead"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testRemoveIfExists": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testAddReplaceHandlerCalledOnceRegistered": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testFreeCalled": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testAddInListenerOio": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testRemoveAndForwardInbound": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testNotPinExecutor": [
+    "pinEventExecutorPerGroup",
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testFirstHandlerEmptyPipeline": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testWrongPromiseChannel": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testFirstContextEmptyPipeline": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testPipelineOperation": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testRemoveAndForwardInboundOutbound": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testAddInListenerLocal": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testLifeCycleAwareness": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testNullName": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testCancelDisconnect": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testChannelUnregistrationWithCustomExecutor": [
+    "pinEventExecutorPerGroup",
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testRemoveChannelHandler": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testCancelWriteAndFlush": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testRemoveIfExistsDoesNotThrowException": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testUnexpectedVoidChannelPromiseCloseFuture": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testAddRemoveHandlerCalledOnceRegistered": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testUnorderedEventExecutor": [
+    "pinEventExecutorPerGroup",
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testReplaceHandlerChecksDuplicateNames": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testReplaceAndForwardOutbound": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testReplaceChannelHandler": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testThrowInOtherHandlerAfterInvokedFromExceptionCaught": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testHandlerAddedFailedButHandlerStillRemoved": [
+    "pinEventExecutorPerGroup",
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testThrowInExceptionCaught": [
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testVoidPromiseNotify": [
+    "writeBufferLowWaterMark",
+    "messageSizeEstimator",
+    "allocator",
+    "writeBufferHighWaterMark"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testCancelConnect": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testSkipHandlerMethodsIfAnnotated": [
+    "autoRead"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testAddHandlerBeforeRegisteredThenRemove": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testChannelHandlerContextNavigation": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#handlerAddedStateUpdatedBeforeHandlerAddedDoneOnCallingThread": [
+    "messageSizeEstimator",
+    "allocator",
+    "writeBufferHighWaterMark"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testAddBefore": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testWriteAndFlushThrowsReleaseMessage": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testLastHandlerEmptyPipeline": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testRenameChannelHandler": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testLastContextEmptyPipeline": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testHandlerAddedExceptionFromChildHandlerIsPropagated": [
+    "pinEventExecutorPerGroup",
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testRemoveAndForwardOutbound": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testReplaceAndForwardInboundAndOutbound": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testAddHandlerBeforeRegisteredThenReplace": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testHandlerRemovedOnlyCalledWhenHandlerAddedCalled": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testCancelBind": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#handlerAddedStateUpdatedBeforeHandlerAddedDoneForceEventLoop": [
+    "messageSizeEstimator",
+    "allocator",
+    "writeBufferHighWaterMark"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testWriteThrowsReleaseMessage": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testAddRemoveHandlerNotRegistered": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testReplaceNameWithGenerated": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testRemoveThrowNoSuchElementException": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testHandlerAddedAndRemovedCalledInCorrectOrder": [
+    "pinEventExecutorPerGroup",
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testUnexpectedVoidChannelPromise": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testPinExecutor": [
+    "pinEventExecutorPerGroup",
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testCancelDeregister": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testFireChannelRegistered": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testChannelHandlerContextOrder": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testHandlerAddedFailedButHandlerStillRemovedWithLaterRegister": [
+    "pinEventExecutorPerGroup",
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testAddReplaceHandlerNotRegistered": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testCancelClose": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testHandlerRemovedExceptionFromChildHandlerIsPropagated": [
+    "pinEventExecutorPerGroup",
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testCancelWrite": [
+    "allocator"
+  ],
+  "io.netty.channel.DefaultChannelPipelineTest#testHandlerAddedThrowsAndRemovedThrowsException": [
+    "pinEventExecutorPerGroup",
+    "allocator"
+  ],
+  "io.netty.channel.local.LocalTransportThreadModelTest3#testConcurrentAddRemoveInboundEventsMultiple": [
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.local.LocalTransportThreadModelTest3#testConcurrentAddRemoveInboundEvents": [
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.local.LocalTransportThreadModelTest3#testConcurrentAddRemoveOutboundEvents": [
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.local.LocalTransportThreadModelTest3#testConcurrentAddRemoveOutboundEventsMultiple": [
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.local.LocalTransportThreadModelTest2#testSocketReuse": [
+    "autoRead",
+    "allocator",
+    "recvByteBufAllocator",
+    "messageSizeEstimator",
+    "writeBufferHighWaterMark",
+    "writeBufferLowWaterMark"
+  ],
+  "io.netty.channel.socket.nio.NioServerSocketChannelTest#testGetOptions": [
+    "autoClose",
+    "pinEventExecutorPerGroup",
+    "allocator",
+    "recvByteBufAllocator",
+    "writeBufferWaterMark",
+    "messageSizeEstimator",
+    "writeSpinCount",
+    "writeBufferHighWaterMark",
+    "maxMessagesPerWrite",
+    "maxMessagesPerRead",
+    "autoRead",
+    "writeBufferLowWaterMark",
+    "connectTimeoutMillis"
+  ],
+  "io.netty.channel.socket.nio.NioServerSocketChannelTest#testCloseOnError": [
+    "autoRead"
+  ],
+  "io.netty.channel.socket.nio.NioServerSocketChannelTest#testIsActiveFalseAfterClose": [
+    "autoRead"
+  ],
+  "io.netty.channel.pool.FixedChannelPoolTest#testAcquire": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.pool.FixedChannelPoolTest#testAcquireNewConnectionWhen": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.pool.FixedChannelPoolTest#testAcquireWithZeroTimeout": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.pool.FixedChannelPoolTest#testReleaseClosed": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.pool.FixedChannelPoolTest#testReleaseDifferentPool": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.pool.FixedChannelPoolTest#testAcquireTimeout": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.pool.FixedChannelPoolTest#testAcquireBoundQueue": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.pool.FixedChannelPoolTest#testCloseAsync": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.pool.FixedChannelPoolTest#testChannelAcquiredException": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.pool.FixedChannelPoolTest#testAcquireNewConnection": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.pool.FixedChannelPoolTest#testReleaseAfterClosePool": [
+    "recvByteBufAllocator",
+    "allocator",
+    "autoRead"
+  ],
+  "io.netty.channel.socket.nio.NioDatagramChannelTest#testGetOptions": [
+    "autoClose",
+    "pinEventExecutorPerGroup",
+    "allocator",
+    "recvByteBufAllocator",
+    "writeBufferWaterMark",
+    "messageSizeEstimator",
+    "writeSpinCount",
+    "writeBufferHighWaterMark",
+    "maxMessagesPerWrite",
+    "maxMessagesPerRead",
+    "autoRead",
+    "writeBufferLowWaterMark",
+    "connectTimeoutMillis"
+  ],
+  "io.netty.channel.socket.nio.NioDatagramChannelTest#testBindMultiple": [
+    "autoRead"
+  ]
+}
