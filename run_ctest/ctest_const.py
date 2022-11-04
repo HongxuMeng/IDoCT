@@ -12,11 +12,13 @@ HDFS = "hadoop-hdfs"
 HBASE = "hbase-server"
 ZOOKEEPER = "zookeeper-server"
 ALLUXIO = "alluxio-core"
+NETTY = "netty-transport"
 
 CTEST_HADOOP_DIR = os.path.join(APP_DIR, "hadoop")
 CTEST_HBASE_DIR = os.path.join(APP_DIR, "ctest-hbase")
 CTEST_ZK_DIR = os.path.join(APP_DIR, "ctest-zookeeper")
 CTEST_ALLUXIO_DIR = os.path.join(APP_DIR, "ctest-alluxio")
+CTEST_NETTY_DIR = os.path.join(APP_DIR, "netty")
 
 PROJECT_DIR = {
     HCOMMON: CTEST_HADOOP_DIR,
@@ -24,6 +26,7 @@ PROJECT_DIR = {
     HBASE: CTEST_HBASE_DIR,
     ZOOKEEPER: CTEST_ZK_DIR,
     ALLUXIO: CTEST_ALLUXIO_DIR,
+    NETTY: CTEST_NETTY_DIR
 }
 
 
@@ -34,6 +37,7 @@ MODULE_SUBDIR = {
     HBASE: "hbase-server",
     ZOOKEEPER: "zookeeper-server",
     ALLUXIO: "core",
+    NETTY: "transport"
 }
 
 
@@ -58,11 +62,12 @@ SUREFIRE_DIR = {
         os.path.join(CTEST_ALLUXIO_DIR, MODULE_SUBDIR[ALLUXIO], "server/worker", SUREFIRE_SUBDIR),
         os.path.join(CTEST_ALLUXIO_DIR, MODULE_SUBDIR[ALLUXIO], "server/master", SUREFIRE_SUBDIR),
     ],
+    NETTY: [os.path.join(CTEST_NETTY_DIR, MODULE_SUBDIR[NETTY], SUREFIRE_SUBDIR)]
 }
 
 # default or deprecate conf path
 DEPRECATE_CONF_DIR = os.path.join(CUR_DIR, "deprecated_configs")
-DEFAULT_CONF_DIR = os.path.join(CUR_DIR, "../hadoop/")
+DEFAULT_CONF_DIR = os.path.join(CUR_DIR, "../netty/")
 
 DEPRECATE_CONF_FILE = {
     HCOMMON: os.path.join(DEPRECATE_CONF_DIR, "hadoop.list"),
@@ -74,7 +79,8 @@ DEFAULT_CONF_FILE = {
     HDFS: os.path.join(DEFAULT_CONF_DIR, HDFS + "-default.tsv"),
     HBASE: os.path.join(DEFAULT_CONF_DIR, HBASE + "-default.tsv"),
     ALLUXIO: os.path.join(DEFAULT_CONF_DIR, ALLUXIO + "-default.tsv"),
-    ZOOKEEPER: os.path.join(DEFAULT_CONF_DIR, ZOOKEEPER + "-default.tsv")
+    ZOOKEEPER: os.path.join(DEFAULT_CONF_DIR, ZOOKEEPER + "-default.tsv"),
+    NETTY: os.path.join(DEFAULT_CONF_DIR, NETTY + "-default.tsv")
 }
 
 
@@ -96,6 +102,9 @@ INJECTION_PATH = {
     ],
     ALLUXIO: [
         os.path.join(CTEST_ALLUXIO_DIR, "core/alluxio-ctest.properties")
+    ],
+    NETTY: [
+        os.path.join(CTEST_NETTY_DIR, "transport/ctest.json")
     ]
 }
 

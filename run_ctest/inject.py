@@ -1,6 +1,7 @@
 """inject parameter, values into sw config"""
 
 import sys
+import json
 import xml.etree.ElementTree as ET
 
 sys.path.append("..")
@@ -14,12 +15,12 @@ def inject_config(param_value_pairs):
     for p, v in param_value_pairs.items():
         print(">>>>[ctest_core] injecting {} with value {}".format(p, v))
 
-    if project in [ZOOKEEPER, ALLUXIO]:
+    if project in [ZOOKEEPER, ALLUXIO, NETTY]:
         for inject_path in INJECTION_PATH[project]:
             print(">>>>[ctest_core] injecting into file: {}".format(inject_path))
             file = open(inject_path, "w")
-            for p, v in param_value_pairs.items():
-                file.write(p + "=" + v + "\n")
+            json_object = json.dumps(param_value_pairs, indent=4)
+            file.write(json_object)
             file.close()
     elif project in [HCOMMON, HDFS, HBASE]:
         conf = ET.Element("configuration")
